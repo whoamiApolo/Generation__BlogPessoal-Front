@@ -8,7 +8,11 @@ function Error() {
   return (
     <>
       <main className="Container--pageError">
-        <img src={astronautaSVG} className="Logo--pageError" alt="Um astronauta" />
+        <img
+          src={astronautaSVG}
+          className="Logo--pageError"
+          alt="Um astronauta"
+        />
 
         <div>
           <h1 className="Title--pageError">Not Found</h1>
@@ -23,11 +27,16 @@ function Error() {
           </p>
         </div>
         <article className="btn--pageError">
-          <button className="btn__count--pageError" onClick={() => setCount((count) => count + 1)}>
+          <button
+            className="btn__count--pageError"
+            onClick={() => setCount((count) => count + 1)}
+          >
             Not Found count is {count}
           </button>
 
-          <button className="btn__count--pageError">Estamos há {count} dia(s) sem localizar o recurso.</button>
+          <button className="btn__count--pageError">
+            Estamos há {count} dia(s) sem localizar o recurso.
+          </button>
         </article>
       </main>
     </>

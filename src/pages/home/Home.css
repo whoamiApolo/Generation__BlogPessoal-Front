@@ -1,8 +1,8 @@
 .container--pageHome {
   min-height: 100vh;
-    display: grid;
-    align-content: center;
-    justify-items: center;
+  display: grid;
+  align-content: center;
+  justify-items: center;
 }
 
 .title--pageHome {
@@ -21,42 +21,43 @@
 }
 
 .content__Btn--PageHome {
-    width: 100%;
+  width: 100%;
 }
 
 .btn__Login--pageHome {
-    margin: 3.2rem 0;
+  margin: 3.2rem 0;
 }
 
-.btn--pageHome, .btn__Login--pageHome {
-    padding: .8rem 1.6rem;
-    border-radius: .4rem;
-    border: none;
-    min-width: 50%;
+.btn--pageHome,
+.btn__Login--pageHome {
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.4rem;
+  border: none;
+  min-width: 50%;
 
-    font-size: 1.6rem;
-    transition: min-width 0.7s;
-    transition: 0.9s;
+  font-size: 1.6rem;
+  transition: min-width 0.7s;
+  transition: 0.9s;
 }
 
 .btn__Login--pageHome:hover {
-    background: white;
-    color: black;
-    cursor: pointer; 
-    font-weight: 700;
-    min-width: 80%;
+  background: white;
+  color: black;
+  cursor: pointer;
+  font-weight: 700;
+  min-width: 80%;
 }
 
 .btn--pageHome:hover {
-    background: white;
-    color: black;
-    cursor: pointer; 
-    font-weight: 700;
-    min-width: 80%;
+  background: white;
+  color: black;
+  cursor: pointer;
+  font-weight: 700;
+  min-width: 80%;
 }
 
 .text__btn--pageHome {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 @media screen and (min-width: 480px) {
@@ -67,11 +68,11 @@
 
 @media screen and (min-width: 780px) {
   .text--pageHome {
-font-size: 1.4rem;
-padding: 0 6.4rem;
+    font-size: 1.4rem;
+    padding: 0 6.4rem;
   }
-  
-    .urlExterno--pageHome {
+
+  .urlExterno--pageHome {
     width: 50%;
   }
 }

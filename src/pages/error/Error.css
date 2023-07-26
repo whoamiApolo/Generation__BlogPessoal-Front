@@ -5,7 +5,6 @@
   justify-content: space-evenly;
   align-items: center;
   /*padding-bottom: 3.2rem;*/
-
 }
 
 .Logo--pageError {
@@ -53,7 +52,6 @@
   background: white;
   color: #1a1a1a;
 }
-
 
 @media screen and (min-width: 480px) {
   .Logo--pageError {
