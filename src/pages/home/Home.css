@@ -1,0 +1,77 @@
+.container--pageHome {
+  min-height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+
+.title--pageHome {
+  font-size: 2.8rem;
+  padding-bottom: 3.2rem;
+}
+
+.text--pageHome {
+  font-size: 1.2rem;
+  text-align: justify;
+  padding: 0 1.2rem;
+}
+
+.urlExterno--pageHome {
+  width: 100%;
+}
+
+.content__Btn--PageHome {
+    width: 100%;
+}
+
+.btn__Login--pageHome {
+    margin: 3.2rem 0;
+}
+
+.btn--pageHome, .btn__Login--pageHome {
+    padding: .8rem 1.6rem;
+    border-radius: .4rem;
+    border: none;
+    min-width: 50%;
+
+    font-size: 1.6rem;
+    transition: min-width 0.7s;
+    transition: 0.9s;
+}
+
+.btn__Login--pageHome:hover {
+    background: white;
+    color: black;
+    cursor: pointer; 
+    font-weight: 700;
+    min-width: 80%;
+}
+
+.btn--pageHome:hover {
+    background: white;
+    color: black;
+    cursor: pointer; 
+    font-weight: 700;
+    min-width: 80%;
+}
+
+.text__btn--pageHome {
+    font-size: 1.4rem;
+}
+
+@media screen and (min-width: 480px) {
+  .urlExterno--pageHome {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .text--pageHome {
+font-size: 1.4rem;
+padding: 0 6.4rem;
+  }
+  
+    .urlExterno--pageHome {
+    width: 50%;
+  }
+}
