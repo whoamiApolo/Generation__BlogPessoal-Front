@@ -85,7 +85,7 @@ function login(e: ChangeEvent<HTMLFormElement>) {
             </Link>
           </p>
         </form>
-        <div className="fundoLogin hidden lg:block"></div>
+        <div className="fundoLogin invisible lg:block lg:visible"></div>
       </div>
     </>
   );
