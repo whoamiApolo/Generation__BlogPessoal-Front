@@ -3,8 +3,6 @@ import './Home.css';
 import ListaPostagens from '../../components/postagens/listaPostagens/ListaPostagens';
 import ModalPostagem from '../../components/postagens/modalPostagem/ModalPostagem';
 
-
-
 function Home() {
     return (
         <>
