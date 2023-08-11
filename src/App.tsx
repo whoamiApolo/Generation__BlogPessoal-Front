@@ -15,7 +15,7 @@ import ListaPostagens from './components/postagens/listaPostagens/ListaPostagens
 import FormularioPostagem from './components/postagens/formularioPostagem/FormularioPostagem';
 
 import Perfil from './pages/perfil/Perfil';
-import DeletarPostagem from './components/postagens/deletarPostagem/deletarPostagem';
+import DeletarPostagem from './components/postagens/deletarPostagem/DeletarPostagem';
 import Error from './pages/error/Error';
 
 function App() {
